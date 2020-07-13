@@ -30,7 +30,7 @@ var svg = d3
 // Set the radius for each dot that will appear in the graph.
 // Note: Making this a function allows us to easily call
 // it in the mobility section of our code.
-//
+
 var circRadius;
 function crGet() {
   if (width <= 530) {
@@ -118,6 +118,7 @@ yTextRefresh();
 
 // Now we append the text.
 // 1. Obesity
+//
 yText
   .append("text")
   .attr("y", -26)
